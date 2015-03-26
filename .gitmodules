@@ -1,0 +1,9 @@
+[submodule "tilemill"]
+	path = tilemill
+	url = https://github.com/mapbox/tilemill
+[submodule "toner-carto"]
+	path = toner-carto
+	url = https://github.com/stamen/toner-carto.git
+[submodule "nik4"]
+	path = nik4
+	url = https://github.com/Zverik/Nik4.git
