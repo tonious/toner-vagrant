@@ -11,7 +11,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
   end
 
-  config.vm.network "forwarded_port", guest: 20009,   host: 20009
+  config.vm.network "forwarded_port", guest: 20008, host: 20008
+  config.vm.network "forwarded_port", guest: 20009, host: 20009
 
   config.vm.provision "shell", path: "provision.sh"
 end

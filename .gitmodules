@@ -7,3 +7,6 @@
 [submodule "nik4"]
 	path = nik4
 	url = https://github.com/Zverik/Nik4.git
+[submodule "pgexplode"]
+	path = pgexplode
+	url = https://github.com/stamen/pgexplode.git
